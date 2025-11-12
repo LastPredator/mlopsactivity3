@@ -18,17 +18,34 @@ By the end of this activity, you will be able to:
 
 ## 🧩 Repository Structure
 
+```
 mlops-ci-activity/
 │
-├── data/ # Optional: sample dataset (if used)
+├── data/                      # Optional: sample dataset (if used)
 │
-├── preprocess.py # Preprocessing script
-├── train.py # Model training script
-├── evaluate.py # Model evaluation script
-├── requirements.txt # Dependencies
-├── Dockerfile.train # Docker image for training
-├── Dockerfile.serve # Docker image for serving
+├── preprocess.py              # Preprocessing script
+├── train.py                   # Model training script
+├── evaluate.py                # Model evaluation script
+├── requirements.txt           # Dependencies
+├── Dockerfile.train           # Docker image for training
+├── Dockerfile.serve           # Docker image for serving
 │
 └── .github/
-└── workflows/
-└── ci-pipeline.yml # GitHub Actions workflow definition
+    └── workflows/
+        └── ci-pipeline.yml    # GitHub Actions workflow definition
+```
+
+---
+
+## ⚙️ Step-by-Step Instructions
+
+1️⃣ Fork this Repository → 2️⃣ Add Secrets (optional) → 3️⃣ Push to `main` → 4️⃣ Observe Actions tab  
+Artifacts and Docker builds will appear automatically.
+
+---
+
+## 📚 References
+
+- [GitHub Actions Documentation](https://docs.github.com/en/actions)
+- [MLOps with GitHub Actions](https://mlops.community/github-actions-for-mlops/)
+- [Continuous Delivery for Machine Learning (CD4ML)](https://martinfowler.com/articles/cd4ml.html)
