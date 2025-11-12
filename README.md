@@ -43,8 +43,7 @@ mlops-ci-activity/
 Artifacts and Docker builds will appear automatically.
 
 ---
-## Change github actions
-This is a minor change to observe Github Actions
+#### Change github actions
 ---
 
 ## 📚 References
