@@ -46,7 +46,7 @@ Artifacts and Docker builds will appear automatically.
 
 ## Change for Github Actions
 
-This is a minor change to observe Github Actions
+This is a minor change to observe Github Actions (##2)
 
 ---
 
